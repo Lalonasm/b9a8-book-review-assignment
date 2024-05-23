@@ -30,7 +30,7 @@ const BookList = ({ bookList }) => {
                 <div className="card-actions justify-end">
                     <p className="text-green-600 font-semibold bg-green-100 rounded-xl p-2 border-green-500">Category : {category}</p>
                     <p className="text-green-600 font-semibold bg-pink-100 rounded-lg p-2 border-green-500">Ratings : {rating}</p>
-                    <Link to={'../listedBook'}><button className="btn bg-green-500">View Details</button></Link>
+                    <Link to={'../book'}><button className="btn bg-green-500">View Details</button></Link>
                 </div>
             </div>
         </div>
