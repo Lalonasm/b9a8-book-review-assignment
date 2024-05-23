@@ -1,6 +1,7 @@
 import { Link, NavLink, useLoaderData, useParams } from "react-router-dom";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { saveBookItem } from "../../utility/localStorage";
 
 
 const BookDetails = () => {
@@ -16,9 +17,10 @@ const BookDetails = () => {
 
 
     const handleReadComplete = () => {
+        saveBookItem(intId)
         toast('Books added to Read List')
     }
-    const handleWishList=()=>{
+    const handleWishList = () => {
         toast('Books added to Wish List')
     }
 
@@ -49,7 +51,7 @@ const BookDetails = () => {
                     </div>
                     <div >
                         <NavLink><button onClick={handleReadComplete} className="text-xl btn hover:bg-blue-400">Read</button></NavLink>
-                        <NavLink><button onClick={handleWishList}  className="text-xl ml-4 btn mb-4 bg-blue-400 hover:bg-blue-600">Wish List</button></NavLink>
+                        <NavLink><button onClick={handleWishList} className="text-xl ml-4 btn mb-4 bg-blue-400 hover:bg-blue-600">Wish List</button></NavLink>
                         <ToastContainer />
                     </div>
 
