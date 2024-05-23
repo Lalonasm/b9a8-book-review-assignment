@@ -29,9 +29,9 @@ const ListedBook = () => {
     return (
         <div>
             <h2>Listed To Book : {bookListed.length}</h2>
-            <div>
+            <div className="grid grid-cols-1">
                 {
-                    bookListed.map(bookList=><BookList bookList={bookList} key={bookList.id}></BookList>)
+                    bookListed.map(bookList => <BookList bookList={bookList} key={bookList.id}></BookList>)
                 }
             </div>
         </div>
