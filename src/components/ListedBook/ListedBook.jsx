@@ -9,7 +9,7 @@ const ListedBook = () => {
 
     const [bookListed, setBookListed] = useState([])
 
-    console.log(books);
+    // console.log(books);
     useEffect(() => {
         const storedBookIds = getStoredBookItem();
         if (books.length > 0) {
