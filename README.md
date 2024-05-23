@@ -2,7 +2,10 @@
 
 Welcome to BOOK REVIEW SITE - you are going-to destination for discovering the best book review websites available today. Whether you're an avid reader looking for new recommendations or a budding book critic wanting to explore different platforms, we've got you covered.
 
-Live URL of this is : 
+Live URL of this site in netlify is : https://664f7c7597fbc2348e6b0bda--classy-mousse-4d8043.netlify.app/
+
+
+
 Features and Characteristics:
 
 1. Comprehensive: We provide detailed reviews of top book review sites, highlighting their strengths and unique features. This helps you choose the best platform for your reading and reviewing needs.
