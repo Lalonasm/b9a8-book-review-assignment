@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
 const Banner = () => {
@@ -8,7 +9,9 @@ const Banner = () => {
                 <div className="lg:justify-items-start">
                     <h1 className="lg:text-6xl text-3xl font-bold">Books to freshen up <br /> your bookshelf</h1>
                     
-                    <button   className="btn bg-green-500 text-white">View This List</button>
+                  <Link to={'/listedbook'}>
+                  <button   className="btn bg-green-500 text-white">View This List</button>
+                  </Link>
                 </div>
             </div>
         </div>)

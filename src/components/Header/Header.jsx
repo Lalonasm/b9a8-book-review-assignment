@@ -1,6 +1,6 @@
-import { NavLink, Outlet } from "react-router-dom";
-import NavBar from "../NavBar/NavBar";
-import Footer from "../Footer/Footer";
+import { NavLink } from "react-router-dom";
+// import NavBar from "../NavBar/NavBar";
+// import Footer from "../Footer/Footer";
 
 
 const Header = () => {

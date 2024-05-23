@@ -10,7 +10,7 @@
         "category": "Romance",
         "tags": [
             "Dating",
-            "Relationships",
+            
             "Self-Improvement"
         ],
         "publisher": "CreateSpace Independent Publishing Platform",
@@ -27,7 +27,7 @@
         "category": "Personal Finance",
         "tags": [
             "Finance",
-            "Self-Help",
+           
             "Money Management"
         ],
         "publisher": "Independently Published",
@@ -44,9 +44,9 @@
         "category": "Young Adult",
         "tags": [
             "Social Justice",
-            "Race",
-            "Young Adult",
-            "Contemporary"
+            
+            "Young Adult"
+            
         ],
         "publisher": "Balzer + Bray",
         "yearOfPublishing": 2017
@@ -62,9 +62,9 @@
         "category": "Education",
         "tags": [
             "Scholarships",
-            "Education",
-            "Planning",
-            "College"
+          
+            "Planning"
+           
         ],
         "publisher": "Morgan James Publishing",
         "yearOfPublishing": 2019
@@ -79,10 +79,10 @@
         "rating": 4.9,
         "category": "Law",
         "tags": [
-            "Law",
+           
             "Family Law",
-            "Texas",
-            "Reference"
+            "Texas"
+           
         ],
         "publisher": "Texas Legal Publishing",
         "yearOfPublishing": 2019
@@ -97,7 +97,7 @@
         "rating": 4.6,
         "category": "Religion",
         "tags": [
-            "Christianity",
+            
             "Faith",
             "Spiritual Growth"
         ],
